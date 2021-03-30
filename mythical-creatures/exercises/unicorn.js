@@ -7,10 +7,15 @@ class Unicorn {
     this.color = color;
     }
   }
+
   isWhite() {
     if (this.color !== 'white') {
       return false;
     }
+  }
+
+  says(message) {
+    return `**;* ${message} *;**`;
   }
 }
 
